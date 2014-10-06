@@ -1,0 +1,215 @@
+body{	
+	background: #797979;
+}
+.wrapper{
+	background-image: url('images/bg-pattern.jpg');
+	width: 1000px;
+	min-height: 1500px;
+	margin: 0 auto;
+}
+.head{
+	width: 900px;
+	margin: 0 auto;
+	padding: 45px 0 0 0;
+	height: 112px;
+}
+.left-logo{
+	width: 160px;
+	float: left;
+}
+.left-logo span{
+	font-size: 10px;
+	text-align: center;
+	color: #2f1b15;
+	font-family: 'PT Sans Caption', sans-serif;
+}
+.left-logo .csssr{
+	padding: 20px 0 0 0;
+}
+.right-logo{
+	float: right;
+}
+.title-logo{
+	/*display: block;*/
+	padding: 32px 0 53px 0;
+	width: 900px;
+	margin: 0 auto;
+	text-align: center;
+}
+.anketa{
+	width: 785px;
+	margin: 0 auto;
+}
+.anketa .field{
+	overflow: hidden;
+	height: 50px;
+	display: block;
+}
+.anketa .label{
+	color: #2f1b15;
+	font-weight: bold;
+	display: inline-block;
+	font-family: 'PT Sans Caption', sans-serif;
+	padding: 16px 0 0;
+	font-size: 20px;
+}
+.anketa .input{
+	/*background-color: transparent;*/
+	border: none;
+	background: url('images/line.png') repeat-x 0 32px;
+	float: right;
+	display: inline-block;
+	font-family: 'Courier New';
+	color: #231f20;
+	font-size: 30px;
+	padding-bottom: 5px;
+}
+.anketa .input:focus{
+	outline: none;
+}
+.input.fio{
+	width: 628px;
+}
+.year-of-birth{
+	width: 618px;
+}
+.input.address{
+	width: 576px;
+}
+.input.skype{
+	width: 697px;
+}
+.input.emeil{
+	width: 697px;
+}
+.graduate{
+	padding: 20px 0 0;
+}
+.graduate a{
+	color: #014f98;
+	font-weight: bold;
+	padding-right: 32px;
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 20px;
+}
+input[type='radio'] + label {
+  background: url("images/rad-off.png") no-repeat center left;
+  padding: 0 20px 0 33px;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  color: #2f1b15;
+  line-height: 32px;
+  margin: 0 0 0 -30px;
+  font-weight: bold;
+  font-family: 'PT Sans Caption', sans-serif;
+}
+
+input[type='radio'], input[type='radio']:checked {
+ opacity: 0;
+}
+input[type='radio']:checked + label {
+  background: url("images/rad-on.png") no-repeat center left;  
+  display: inline-block;
+}
+.practical-skills{
+	padding: 48px 0 0 0;
+}
+.practical-skills h3{
+	color: #2f1b15;
+	font-weight: bold;	
+	font-family: 'PT Sans Caption', sans-serif;	
+	font-size: 20px;
+	padding-bottom: 15px;
+}
+.practical-skills p{
+	color: #3d3d3d;
+	font-size: 12px;
+	font-family: 'PT Sans', sans-serif;
+	line-height: 25px;
+	text-align: justify;
+	padding-bottom: 25px;
+}
+.practical-skills p:before{
+	content: "*";
+	display: block;
+  float: left;
+  font-size: 34px;
+  height: 52px;
+  padding: 5px 5px 0 0;
+}
+input[type='checkbox'] + label {
+  background: url("images/check-off.png") no-repeat 5px -2px;
+  padding: 0 0 0 33px;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  color: #2f1b15;
+  line-height: 32px;
+  margin: 0 0 0 -30px;
+  font-weight: bold;
+  font-family: 'PT Sans Caption', sans-serif;
+}
+
+input[type='checkbox'], input[type='checkbox']:checked {
+ opacity: 0;
+}
+input[type='checkbox']:checked + label {
+  background: url("images/check-on.png") no-repeat 5px -2px;  
+  display: inline-block;
+}
+
+table td{
+	padding-right: 10px;
+}
+table td:last-child{
+	padding-right: 0px;
+}
+
+.proficiency{
+	padding-top: 80px;
+}
+.proficiency h3{
+	color: #2f1b15;
+	font-weight: bold;	
+	font-family: 'PT Sans Caption', sans-serif;	
+	font-size: 20px;	
+}
+.ui-slider{
+	width: 763px !important;
+	margin: 43px 0 0;
+	border: none !important;
+	height: 78px !important;
+	position: relative !important;
+	background: url("images/skills.png") no-repeat !important;
+}
+.ui-slider > .ui-slider-range{
+	background: transparent;
+	width: 763px !important;
+}
+.ui-slider > .ui-slider-handle{
+	margin: 0 !important;
+	top: -20px !important;
+	border: none !important;
+	background: url("images/handle.png") no-repeat 2px 4px !important;
+
+}
+.ui-slider > .ui-slider-handle:active{
+	border: none;
+}
+.ui-slider > .ui-slider-handle:focus{
+	border: none;
+	outline: none;
+}
+
+.date-filling-block{
+	padding-top: 50px;
+}
+.date-filling-block > label{
+	float: left;
+	padding: 16px 7px 0 0 !important;
+}
+.date-filling-block .date-filling{
+	width: 205px;
+	float: left;
+}

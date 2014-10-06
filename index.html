@@ -1,0 +1,164 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Test</title>
+
+<link href="main.css" rel="stylesheet" type="text/css">
+<link href="reset.css" rel="stylesheet" type="text/css">
+
+<link href='http://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=PT+Sans&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
+<link href="js/jquery-ui/jquery-ui.css" rel="stylesheet">
+<link href="js/jquery-ui/jquery-ui.theme.css" rel="stylesheet">
+<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+<script type="text/javascript" src="js/jquery-ui/jquery-ui.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+</head>
+<body>
+<div class="wrapper">
+  <div class="head">
+    <div class="left-logo">
+      <img src="images/csssr.png" class="csssr">
+      <span>Cекретный архив учреждения</span>
+    </div>
+    <div class="right-logo">
+      <img src="images/sekretno.png" class="sekretno">
+    </div>
+  </div>
+  <div class="title-logo">
+    <img src="images/delo.png" class="delo">
+  </div>
+  <form action="test.php" method="post" name="form1" class="anketa">
+    <div class="field">
+      <label for="fio" class="label">Полное ФИО</label>
+      <input name="fio" type="text" id="fio" class="input fio" value="Соколов Максим Владимирович">
+    </div>
+    <div class="field">
+      <label for="year-of-birth" class="label">Год рождения</label>
+      <input name="year-of-birth" type="text" id="year-of-birth" class="input year-of-birth" value="1991">
+    </div>
+    <div class="field">
+      <label for="address" class="label">Место жительства</label>
+      <input name="address" type="text" id="address" class="input address" value="г. Днепропетровск, Украина">
+    </div>
+    <div class="field">
+      <label for="skype" class="label">Скайп</label>
+      <input name="skype" type="text" id="skype" class="input skype" value="killermaks09">
+    </div>
+    <div class="field">
+      <label for="emeil" class="label">Почта</label>
+      <input name="emeil" type="text" id="emeil" class="input emeil" value="maksim12345@gmail.com">
+    </div>
+    <div class="field graduate">
+      <label for="emeil" class="label">Выпускник</label> <a href="">htmlacademy.ru</a>
+      <input type="radio" name="rad" value="rad2">
+      <label for="rad">Да</label>
+      <input type="radio" name="rad" value="rad2" checked="checked">
+      <label for="rad">Нет</label>
+    </div>
+    <div class="practical-skills">
+      <h3>Практические навыки</h3>
+      <p>Отметьте только те технологии и типы задач, с которыми вы хорошо знакомы. Отсутствие опыта совсем не означает, что у вас меньше шансов стать нашим сотрудником. Это означает, что вы будете получать те задачи, с которыми гарантировано будете справляться.</p>
+
+      <table>
+        <tr>
+          <td>
+            <input type="checkbox" name="check" checked="checked">
+            <label for="check">Методология БЭМ</label>
+          </td>
+          <td>
+            <input type="checkbox" name="check">
+            <label for="check">Jade</label>
+          </td>
+          <td>
+            <input type="checkbox" name="check">
+            <label for="check">Верстка рассылок</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="checkbox" name="check" checked="checked">
+            <label for="check">jQuery</label>
+          </td>
+          <td>
+            <input type="checkbox" name="check">
+            <label for="check">Stylus</label>
+          </td>
+          <td>
+            <input type="checkbox" name="check">
+            <label for="check">Адаптивная верстка</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="checkbox" name="check">
+            <label for="check">Использую GRUNT</label>
+          </td>
+          <td>
+            <input type="checkbox" name="check">
+            <label for="check">Знаю (изучаю) Angular</label>
+          </td>
+          <td>
+            <input type="checkbox" name="check">
+            <label for="check">Использую Dropbox</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="checkbox" name="check" checked="checked">
+            <label for="check">Haml</label>
+          </td>
+          <td>
+            <input type="checkbox" name="check">
+            <label for="check">Верстка под Android</label>
+          </td>
+          <td>
+            <input type="checkbox" name="check" checked="checked">
+            <label for="check">Использую Gmail</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="checkbox" name="check" checked="checked">
+            <label for="check">Sass</label>
+          </td>
+          <td>
+            <input type="checkbox" name="check">
+            <label for="check">Верстка под iOS</label>
+          </td>
+          <td>
+            <input type="checkbox" name="check">
+            <label for="check">Использую GitHub</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="checkbox" name="check">
+            <label for="check">Less</label>
+          </td>
+          <td>
+            <input type="checkbox" name="check">
+            <label for="check">Верстка под Windows Phone</label>
+          </td>
+          <td>
+            <input type="checkbox" name="check">
+            <label for="check">CoffeeScript</label>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="proficiency">
+      <h3>Уровень владения JavaScript</h3>
+      <div id="slider-range-max"></div>
+    </div>
+    <div class="date-filling-block">
+      <label for="date-filling" class="label">Дата заполнения</label>
+      <input name="date-filling" type="text" id="date-filling" class="input date-filling" value="08.09.2014">
+    </div>
+  </form>
+</div>
+</body>
+</html>
